@@ -172,6 +172,69 @@ header{
     border-radius: 10000px;
 }
 
+/* about section */
+
+.about{
+    padding-top: 50px;
+    background-color: #1A0B2E;
+}
+.about-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.about-content{
+    text-align: center;
+}
+.rate-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 80px;
+    
+}
+.card{
+    max-width: 240px;
+    height: 94px;
+    text-align: center;
+}
+.card h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #00FF88;
+    margin-bottom: 16px;
+
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 80%;
+    margin-bottom: 120px;
+    
+}
+
+.about-content h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.about-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height:40px;
+    margin-bottom: 60px;
+    opacity: 80%;
+}
+.line{
+    border: 0;
+    border-top: 1px  solid rgb(41, 39, 37);
+}
+
+
     
 
 
@@ -188,6 +251,14 @@ header{
     .menu-bar{
     display:inline;
 }
+.about-content{
+    padding: 0 20px;
+}
+.rate-card{
+    flex-wrap: wrap;
+}
+
+
 
 
 
