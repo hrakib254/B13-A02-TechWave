@@ -64,7 +64,115 @@ header{
 .menu-bar{
     display: none;
 }
+/* banner desing section */
 
+#banner{
+    background-image: url(/assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:760px;
+    border-top: 1px solid rgb(65, 65, 64);
+   
+}
+.banner-container{
+    max-width: 550px;
+    width: 100%;
+    padding-top: 101px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner-images{
+    position: relative;
+}
+.png1{
+    width: 350px;
+    height: 350px;
+    position:absolute;
+    margin-bottom: 40px;
+    
+    
+}
+.png2{
+   
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.png1-icon{
+    position: absolute;
+    top: 5%;
+    
+    left:70%;
+    background-color: #00FF88;
+    padding: 8px 16px 8px 16px;
+    color: #1A0B2E;
+    font-size: 18;
+    font-weight: 500;
+    border-radius: 1000px;
+    
+
+
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+.banner-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    display: flex;
+    gap:16px;
+}
+.banner-btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 201px;
+    height: 44px;
+    padding: 12px 20px 12px 20px;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+    border: none;
+    text-align: left;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius:1000px;
+
+
+}
+.banner-btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 44px;
+    background: transparent;
+    border: 1px solid#00FF88;
+    gap: 8px;
+    font-size:16px ;
+    font-weight: 600;
+    color: #00FF88;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10000px;
+}
+
+    
 
 
 
@@ -80,6 +188,10 @@ header{
     .menu-bar{
     display:inline;
 }
+
+
+
+
 
     
 }
