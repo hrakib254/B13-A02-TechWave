@@ -192,6 +192,7 @@ header{
     align-items: center;
     margin-top: 60px;
     gap: 80px;
+    text-align: center;
     
 }
 .card{
@@ -233,9 +234,91 @@ header{
     border: 0;
     border-top: 1px  solid rgb(41, 39, 37);
 }
+.tech{
+    padding: 100px 0;
+    background-color:#230E3D;
+}
 
+.tech h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.container>*{
+    border: 1px solid rgb(118, 118, 231);
+    background-color: #ffffff;
+    padding: 40px;
+    background-color: #351165;
+    border:none ;
+    border-radius: 40px;
+}
+.t-images{
 
+}
+.tt-h5{
+    font-size: 20px;
+    font-weight:900;
+    color: #ffffff;
+    margin-bottom: 16px;
+    opacity: 100%;
+    padding-top: 100px;
     
+
+}
+.t-h5{
+    font-size: 20px;
+    font-weight:900;
+    color: #ffffff;
+    margin-bottom: 16px;
+    opacity: 100%;
+    
+
+} 
+.t-p{
+    font-size: 16;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 20px;
+    opacity: 60%;
+    
+
+
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-areas: 
+
+    'n m m'
+    'n g g'
+    'f f r'
+    
+    ;
+}
+nav{
+    grid-area: n ;
+}
+main{
+    grid-area: m;
+}
+#global{
+    grid-area: g;
+}
+footer{
+    grid-area: f;
+}
+#rich{
+    grid-area: r;
+}
+
 
 
 
@@ -256,6 +339,20 @@ header{
 }
 .rate-card{
     flex-wrap: wrap;
+}
+
+.container{
+    grid-template-columns: repeat(1,1fr);
+    
+    grid-template-areas: 
+
+    'n'
+    'm'
+    'g'
+    'f'
+    'r'
+    
+    ;
 }
 
 
