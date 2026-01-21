@@ -264,6 +264,48 @@ footer{
     
 }
 
+.meet{
+    padding-top: 120px;
+
+}
+.meet-text h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.meet-text p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+}
+
+.meet-container{
+    max-width: 1150px;
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+    background-color: #230E3D;
+    padding: 40px;
+    border-radius: 20px;
+}
+.icon-box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+   
+
+    
+}
+.icon{
+    border: 1px solid wheat;
+    border-radius: 20px;
+    padding: 3px;
+}
 
 
 
@@ -310,6 +352,38 @@ footer{
     
    
 }
+
+.meet-container{
+    flex-direction: column;
+    
+    
+}
+.meet-container .host-img{
+    width: 200px;
+    margin-left: 50px;
+   
+    
+    
+}
+.icon{
+    margin-left: 30px;
+}
+
+
+.meet-text, p,h3{
+   text-align: center;
+   margin-right: 30px;
+
+}
+.feature{
+    
+    padding:10px;
+
+}
+
+
+
+
 
 
 
