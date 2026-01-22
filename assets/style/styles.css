@@ -306,6 +306,63 @@ footer{
     border-radius: 20px;
     padding: 3px;
 }
+.footer{
+    background-image: url("/assets/footer-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+}
+.footer-container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer-img{
+    max-width: 410px;
+    height: 60px;
+    margin-bottom: 32px;
+}
+.footer-logo{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.footer-card{
+
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.footer-card img{
+    width: 24px;
+    height: auto;
+
+
+}
+.footer-card p{
+
+    font-size: 16px;
+    font-weight: 400;
+    color:#ffffff;
+    opacity: 60%;
+
+}
+.copy{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 120px;
+    opacity: 60%;
+}
+    
 
 
 
@@ -379,6 +436,11 @@ footer{
     
     padding:10px;
 
+}
+.footer-logo{
+    margin-left: 20px;
+    flex-wrap: wrap;
+    
 }
 
 
